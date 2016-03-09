@@ -1,4 +1,4 @@
-# A-Welzijn Notification Service
+# A-Welzijn Hover Popover
 
 v3.0.1
 
@@ -6,29 +6,6 @@ v3.0.1
 
 ```javascript
 "dependencies": {
-	"awelzijn-notification-service": "latest"
+	"awelzijn-hover-popover": "~1.0.0"
  }
-```
-```javascript
-var app = angular.module('yourApp', [
-	'awelzijn.notificationservice'
-]);
-```
-
-Deze service dient samen gebruikt te worden met de [notification-callout](https://github.com/A-welzijn/notification-callout) (anders worden de booschappen wel bijgehouden, maar niet getoond)
-
-Je injecteert de service in je controller
-```javascript
-var controller = function (notificationService) {...}
-controller.$inject = ['aWelzijnNotificationService'];
-```
-Je gebruikt de volgende methodes
-```javascript
-notificationService.notify("Yes!");
-notificationService.warning("Oei!");
-notificationService.error("Oeioei!");
-```
-Bij elke methode kan je 1 string of een array van strings gebruiken
-```javascript
-notificationService.notify(["Yes!", "Jawadde", "Zalig"]);
 ```

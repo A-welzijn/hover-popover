@@ -1,8 +1,8 @@
 {
-  "name": "awelzijn-notification-service",
+  "name": "awelzijn-hover-popover",
   "version": "3.0.1",
   "main": [
-    "dist/awelzijn-notification-service.js"
+    "dist/awelzijn-hover-popover.js"
   ],
   "ignore": [
     ".*",

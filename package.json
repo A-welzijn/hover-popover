@@ -1,10 +1,10 @@
 {
-  "name": "awelzijn-notification-service",
-  "description": "Notification service",
+  "name": "awelzijn-hover-popover",
+  "description": "Hover Popover",
   "version": "3.0.1",
   "repository": {
     "type": "git",
-    "url": "git@github.com:A-welzijn/notification-service.git"
+    "url": "git@github.com:A-welzijn/hover-popover.git"
   },
   "dependencies": {
     "bower": "^1.3.12",
